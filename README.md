@@ -10,9 +10,6 @@ Created a node.js program that will allow you to generate your own ReadMe. User 
 
 https://github.com/venasven/node-js-readme/assets/141704995/5e736de1-3f51-4cd7-8c78-10d14ff14dba
 
-## License
-This project is license under the MIT license.
-
 ## Credits
 Discussed assignment with classmates and sought help from tutoring.
 
