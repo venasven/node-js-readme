@@ -3,7 +3,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const { prompt } = inquirer
 const { writeFile } = require('fs').promises;
-const generateMd = require('./utils/generateMarkdown')
+const generateMarkdown = require('./utils/generateMarkdown')
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -63,7 +63,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(answers) {
     console.log('Writing to file...');
-    const markDown = generateMd(answers);
+    const markDown = generateMarkdown(answers);
 
    return writeFile('demo.md', markDown)
      .then(() => console.log('ReadMe has been written!'))
