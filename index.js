@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const { writeFile } = require('fs').promises;
 const { prompt } = inquirer
+// const generateMd = require('./generateReadme')
 // TODO: Create an array of questions for user input
 const questions = [
     {
